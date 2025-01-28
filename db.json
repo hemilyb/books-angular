@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Dom Casmurro",
+      "author": "Machado de Assis",
+      "description": "Bentinho, o narrador da história, rememora seu passado com Capitu e o complexo relacionamento entre os dois. A obra é marcada pela dúvida sobre a fidelidade de Capitu."
+    },
+    {
+      "id": "2",
+      "title": "Cem Anos de Solidão",
+      "author": "Gabriel García Márquez",
+      "description": "Através da história da família Buendía, Márquez descreve a ascensão e queda de uma cidade fictícia, Macondo, no contexto do realismo mágico, entrelaçando o destino com o imaginário."
+    },
+    {
+      "id": "3",
+      "title": "Orgulho e Preconceito",
+      "author": "Jane Austen",
+      "description": "A obra examina a sociedade inglesa do século XIX, focando no romance entre Elizabeth Bennet e Mr. Darcy, e explorando temas de classe social, moralidade e relacionamentos."
+    },
+    {
+      "id": "4",
+      "title": "1984",
+      "author": "George Orwell",
+      "description": "Uma distopia que descreve um regime totalitário que controla até os pensamentos dos cidadãos. A história segue Winston Smith, que começa a questionar a opressiva estrutura de sua sociedade."
+    },
+    {
+      "id": "5",
+      "title": "A Moreninha",
+      "author": "Joaquim Manuel de Macedo",
+      "description": "A história de amor entre Augusto e Carolina, que se passa em uma sociedade carioca do século XIX, focando em temas de paixão, ciúmes e as convenções sociais da época."
+    }
+  ]
+}

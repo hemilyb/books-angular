@@ -1,0 +1,15 @@
+<div class="book-details-container">
+  <h1>Detalhes do Livro</h1>
+  <div>
+    @if (book) {
+    <div class="book-card">
+      <h2>{{ book.title }}</h2>
+      <p class="description">{{ book.description }}</p>
+      <p><strong>Autor:</strong> {{ book.author }}</p>
+    </div>
+    } 
+    <div class="actions">
+      <button class="btn back-btn" routerLink="/books">Voltar à Lista</button>
+    </div>
+  </div>
+</div>

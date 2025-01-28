@@ -1,0 +1,94 @@
+
+div {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.book-item:hover {
+  transform: translateY(-5px);
+}
+
+.book-info h2 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.book-info p {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin: 5px 0;
+}
+
+.book-info strong {
+  font-weight: bold;
+  color: #34495e;
+}
+
+.book-actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book-actions .btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-actions .update-btn {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.book-actions .update-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.book-actions .update-btn:hover {
+  background-color: #2980b9;
+}
+
+.book-actions .delete-btn {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.book-actions .delete-btn:hover {
+  background-color: #c0392b;
+}

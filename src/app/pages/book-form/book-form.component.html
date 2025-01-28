@@ -1,0 +1,36 @@
+<div class="form-container">
+  <h1>{{ newBook.id ? 'Editar Livro' : 'Adicionar Novo Livro' }}</h1>
+  <form #form="ngForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="title">Título</label>
+      <input type="text" id="title" name="title" [(ngModel)]="newBook.title" required
+        placeholder="Digite o título do livro" />
+    </div>
+
+    <div class="form-group">
+      <label for="author">Autor</label>
+      <input type="text" id="author" name="author" [(ngModel)]="newBook.author" required
+        placeholder="Digite o nome do autor" />
+    </div>
+
+    <div class="form-group">
+      <label for="description">Descrição</label>
+      <textarea id="description" name="description" [(ngModel)]="newBook.description" rows="4" required
+        placeholder="Digite uma breve descrição"></textarea>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" class="btn" [disabled]="form.invalid">
+        {{ newBook.id ? 'Atualizar Livro' : 'Adicionar Livro' }}
+      </button>
+
+      <a routerLink="/books">Ver todos os livros</a>
+
+    </div>
+    <div>
+      @if(message) {
+      <p>Livro atualizado com sucesso!</p>
+      }
+    </div>
+  </form>
+</div>

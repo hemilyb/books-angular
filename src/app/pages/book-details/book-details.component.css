@@ -1,0 +1,64 @@
+.book-details-container {
+  background-color: #f4f4f9;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-details-container h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.book-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.book-card h2 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.book-card .description {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 10px;
+}
+
+.book-card p {
+  font-size: 1rem;
+  color: #34495e;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+.back-btn {
+  margin-top: 10px;
+}
