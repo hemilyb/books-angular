@@ -1,6 +1,6 @@
 
 div {
-  max-width: 900px;
+  width: 800px;
   margin: 20px auto;
   padding: 20px;
   background-color: #f9f9f9;
@@ -44,6 +44,7 @@ ul {
 }
 
 .book-info p {
+  width: 500px;
   font-size: 1rem;
   color: #7f8c8d;
   margin: 5px 0;
