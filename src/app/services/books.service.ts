@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 
 export class BooksService {
-  private apiUrl = 'http://localhost:3000/books';
+  private apiUrl = 'http://localhost:5066/api/books';
 
   constructor(private http: HttpClient) { }
 
@@ -16,7 +16,6 @@ export class BooksService {
   }
 
   addBook(book: Book): Observable<Book> {
-    book.id = Math.floor(Math.random() * 999999).toString();
     return this.http.post<Book>(this.apiUrl, book)
   }
 
