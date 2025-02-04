@@ -40,6 +40,9 @@ export class BookFormComponent implements OnInit {
   }
 
   onSubmit() {
+    const bookToCreate = { ...this.newBook };
+    delete bookToCreate.id;
+
     if (this.newBook.id) {
       this.bookService.updateBook(this.newBook).subscribe({
         next: () => {
@@ -47,7 +50,7 @@ export class BookFormComponent implements OnInit {
         }
       })
     } else {
-      this.bookService.addBook(this.newBook).subscribe({
+      this.bookService.addBook(bookToCreate).subscribe({
         next: () => {
           this.router.navigate(["/books"])
         },
